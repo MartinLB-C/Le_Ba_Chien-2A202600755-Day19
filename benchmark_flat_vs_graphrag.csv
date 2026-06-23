@@ -1,0 +1,86 @@
+question,flat_answer,graph_answer,flat_time,graph_time,flat_context_chars,graph_context_chars,winner,note
+What entities are connected to Microsoft?,The data is insufficient.,The data is insufficient.,0.6212465763092041,0.6586940288543701,3427,534,,
+What entities are connected to OpenAI?,The data is insufficient.,The data is insufficient.,0.6110579967498779,0.5624549388885498,3427,534,,
+What products are connected to Google?,The data is insufficient.,Không tìm thấy entity phù hợp trong graph.,0.616569995880127,0.002085447311401367,3679,0,,
+Which companies are connected through partnerships?,The data is insufficient.,The data is insufficient.,0.6476287841796875,0.5929169654846191,3677,534,,
+Which companies are connected through acquisitions?,The data is insufficient.,The data is insufficient.,0.698514461517334,0.5381333827972412,3677,534,,
+Which people are connected to technology companies?,"The people connected to technology companies are Google, Facebook, Netflix, and Tesla (as mentioned in the context), as well as individuals involved with pure EV companies like Tesla, Li Auto, Xpeng, and Rivian, and traditional ICE car companies like Ford and GM (though they failed to show improvements). Additionally, the context references Robinhood users and investors, including those using platforms like Robinhood, who are connected to stock markets and technology-driven financial tools. However, specific individuals are not named.
+
+Since the question asks “which people” and no specific names are provided in the context, the answer must be based on the entities or groups mentioned.
+
+Answer: Google, Facebook, Netflix, Tesla, Li Auto, Xpeng, Rivian, Ford, GM, and investors using platforms like Robinhood.",The data is insufficient.,1.5695366859436035,0.5208714008331299,3677,908,,
+What competitors are mentioned?,The competitors mentioned are **Chinese competitors**.,The data is insufficient.,0.6252799034118652,0.5481555461883545,3679,534,,
+Which companies are connected to AI products?,The data is insufficient.,The data is insufficient.,0.8764770030975342,0.5018560886383057,3677,534,,
+What headquarters or locations are mentioned?,"The context mentions the following headquarters or locations:
+
+- **France** (as part of France 2030, and where the EUR 500 million Critical Metals Fund is managed by InfraVia)  
+- **Canada** (home of Summit Nanotech, which raised USD 50 million for lithium extraction)  
+- **EU** (European Battery Alliance’s Strategic Battery Raw Material Fund, targeting investments in Europe)  
+- **United States and Europe** (mentioned in relation to potential rate cuts)  
+- **China** (mentioned in relation to improvement in consumer sentiment)  
+
+No specific city or address is provided.","The context mentions the **U.S.-China Economic and Security Review Commission**, which is the entity that hosted Ilaria Mazzocco’s testimony. However, no specific headquarters or location (e.g., city, address) is provided for this commission or any other entity.
+
+Therefore, the data is insufficient to specify a headquarters or location.",1.5057077407836914,1.1238865852355957,3679,848,,
+What investments are mentioned?,"The investments mentioned are:
+
+1. **Venture capital (VC) investments in start-ups developing electric cars**:
+   - 70% in China, 20% in the United States, and 10% in Europe (cumulative over 2018–2023).
+   
+2. **VC investments in electric trucks, buses, and commercial vehicles**:
+   - ~95% in the United States.
+
+3. **VC investments in start-ups developing electric 2/3Ws**:
+   - India accounted for 70% of such investments globally (over 2018–2023).
+   - Indian EV start-ups raised USD 2.7 billion, with over 70% for electric 2/3Ws.
+
+4. **VC investments in battery makers**:
+   - Split evenly among China, Europe, and the United States (30% each).
+
+5. **Early-stage VC investments in battery and component makers**:
+   - Over 2018–2020: ~USD 430 million, ~75% for lithium-based battery chemistries.
+   - Over 2021–2023: More than tripled (exact amount not fully stated).
+
+6. **VC investments in novel battery concepts and critical mineral extraction/refining**:
+   - Mentioned as gaining momentum.
+   - Lithium extraction and refining: USD 1",The data is insufficient.,3.061954975128174,0.5458166599273682,3682,848,,
+What is connected to NVIDIA?,The data is insufficient.,The data is insufficient.,0.6233220100402832,0.6007535457611084,3428,1514,,
+What is connected to Tesla?,"Tesla is connected to being the world’s top-selling EV company in 2023 (alongside BYD), accounting for over 45% of all battery-electric cars sold in the United States, and having a market value in 2023 that was 7 times higher than BYD’s. Tesla also led in global electric car sales in 2023, together with BYD accounting for 35% of all EV sales globally—more than all major carmakers outside China combined and more than all other Chinese carmakers. Additionally, Tesla initiated price cuts in early 2024 (up to 6% or CNY 15,000 for Models 3 and Y), prompting competitors like BYD, XPeng, and GM-SAIC-Wuling to follow suit by reducing their prices.",The data is insufficient.,1.8131773471832275,0.7956314086914062,3677,1514,,
+What is connected to Amazon?,The data is insufficient.,The data is insufficient.,0.6823945045471191,0.632319450378418,3428,1514,,
+What is connected to Apple?,The data is insufficient.,The data is insufficient.,0.6827948093414307,0.8932909965515137,3428,1514,,
+What is connected to Meta?,The data is insufficient.,The data is insufficient.,0.7200288772583008,0.5916390419006348,3428,1514,,
+What multi-hop relation can be found around Microsoft?,"The multi-hop relation around ""Microsoft"" is:  
+**LinkedIn → Microsoft Store → Microsoft**  
+
+Explanation:  
+- The context mentions *“Don’t have the app? Get it in the Microsoft Store.”* under the LinkedIn section (doc_45.txt::ch21).  
+- This implies LinkedIn’s app is available on the Microsoft Store.  
+- The Microsoft Store is a platform operated by Microsoft, thus connecting LinkedIn → Microsoft Store → Microsoft (as the parent entity/brand).  
+
+This is a multi-hop relation because it spans two steps: LinkedIn → Microsoft Store (via app availability), and Microsoft Store → Microsoft (as the owner of the store).",Không tìm thấy entity phù hợp trong graph.,1.6542720794677734,0.0030052661895751953,3428,0,,
+What multi-hop relation can be found around Google?,"The multi-hop relation around Google is:  
+**Google → cornerstone technology companies → Tesla**  
+
+Explanation:  
+- In the context, Google is listed as one of the “cornerstone technology companies” (along with Facebook, Netflix, and Tesla) that have experienced a similar story of sales/subscriber growth slowing temporarily but long-term transformation remaining intact.  
+- This implies a relation where Google is grouped with Tesla under the broader category of “cornerstone technology companies,” establishing a multi-hop link between them via this shared classification.  
+
+No direct relation between Google and Tesla is stated, but the shared categorization creates a multi-hop path.",Không tìm thấy entity phù hợp trong graph.,1.4266066551208496,0.0030062198638916016,3678,0,,
+What multi-hop relation can be found around AI?,"The context mentions that catalyzing the consumer market (e.g., in the EV industry) is not easily applicable to other strategic industries like AI, advanced computing, or biotech. It also states that while these industries will still face government interventions, they cannot directly draw on lessons learned from the EV industry.
+
+Thus, a multi-hop relation around AI is:  
+**AI → government intervention → strategic industry → no direct application of EV industry lessons**
+
+This reflects a chain: AI is a strategic industry subject to government intervention, and because it differs from the EV industry, lessons from EVs do not directly apply.
+
+Answer: AI is a strategic industry subject to government intervention, and lessons from the EV industry do not directly apply to it.",Không tìm thấy entity phù hợp trong graph.,1.9895880222320557,0.0019931793212890625,3678,0,,
+Which products are connected to companies?,"The products connected to companies include electric vehicles (EVs), autonomous vehicles, solar-powered roofs, and more efficient batteries. These are mentioned in the context as innovative products developed by EV companies, particularly Tesla, through significant R&D investment.","The context does not explicitly list ""products"" connected to companies—only services, indices, and subsidiaries. It mentions:
+
+- **Q3 2024 Cox Automotive Dealer Sentiment Index (CADSI)** — an index, not a product.
+- **Dealer Sentiment Index** — also an index/survey, not a product.
+- **Services** provided to car shoppers, auto manufacturers, dealers, lenders, and fleets — but these are services, not specific products.
+
+Since the question asks for *products* and the context only references indices, services, and subsidiaries without naming any specific products, the data is insufficient to answer the question.
+
+**Answer:** The data is insufficient.",1.3155348300933838,1.5410690307617188,3677,1514,,
+Which company relationships are most important in the graph?,The data is insufficient.,The data is insufficient.,0.687281608581543,0.5608680248260498,3678,908,,

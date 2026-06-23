@@ -1,0 +1,355 @@
+{
+  "6471c7c8c4be0a7daac203f595fd556c": [
+    {
+      "subject": "Cox Automotive",
+      "subject_type": "company",
+      "relation": "publishes",
+      "object": "Q3 2024 Cox Automotive Dealer Sentiment Index (CADSI)",
+      "object_type": "index",
+      "evidence": "The Q3 2024 Cox Automotive Dealer Sentiment Index (CADSI) shows automobile dealers in the U.S. continue to view the market as weak"
+    },
+    {
+      "subject": "Q3 2024 Cox Automotive Dealer Sentiment Index (CADSI)",
+      "subject_type": "index",
+      "relation": "has_score",
+      "object": "40",
+      "object_type": "score",
+      "evidence": "The overall Q3 market sentiment index dropped to a score of 40"
+    },
+    {
+      "subject": "Q3 2024 Cox Automotive Dealer Sentiment Index (CADSI)",
+      "subject_type": "index",
+      "relation": "compared_to_q2",
+      "object": "42",
+      "object_type": "score",
+      "evidence": "down from 42 in Q2"
+    },
+    {
+      "subject": "Q3 2024 Cox Automotive Dealer Sentiment Index (CADSI)",
+      "subject_type": "index",
+      "relation": "compared_to_previous_year",
+      "object": "45",
+      "object_type": "score",
+      "evidence": "and 45 from a year ago"
+    },
+    {
+      "subject": "Jonathan Smoke",
+      "subject_type": "person",
+      "relation": "holds_position",
+      "object": "chief economist at Cox Automotive",
+      "object_type": "role",
+      "evidence": "said Jonathan Smoke, chief economist at Cox Automotive"
+    },
+    {
+      "subject": "U.S. automobile dealers",
+      "subject_type": "group",
+      "relation": "views_market_as",
+      "object": "weak",
+      "object_type": "state",
+      "evidence": "automobile dealers in the U.S. continue to view the market as weak"
+    }
+  ],
+  "1038ba42ba4f04efd16e670449a2b35b": [
+    {
+      "subject": "U.S. auto dealers",
+      "subject_type": "group",
+      "relation": "sentiment_score_q3",
+      "object": "50",
+      "object_type": "score",
+      "evidence": "Franchised dealers’ sentiment increased by one point from Q2 to a score of 50 in Q3"
+    },
+    {
+      "subject": "Independent dealers",
+      "subject_type": "group",
+      "relation": "sentiment_score_q3",
+      "object": "37",
+      "object_type": "score",
+      "evidence": "independent dealers expressed a very negative outlook, achieving a score of 37"
+    },
+    {
+      "subject": "Independent dealers",
+      "subject_type": "group",
+      "relation": "lowest_sentiment_score",
+      "object": "17",
+      "object_type": "score",
+      "evidence": "second lowest in the survey’s history, behind only the score of 17 recorded during the global economic shutdown in Q2 2020"
+    },
+    {
+      "subject": "Market outlook index",
+      "subject_type": "index",
+      "relation": "q3_score",
+      "object": "42",
+      "object_type": "score",
+      "evidence": "The market outlook index ... dropped further in Q3, falling to 42 from 44"
+    },
+    {
+      "subject": "Market outlook index",
+      "subject_type": "index",
+      "relation": "year_ago_score",
+      "object": "45",
+      "object_type": "score",
+      "evidence": "remains below the year-ago level of 45"
+    },
+    {
+      "subject": "Franchised dealers",
+      "subject_type": "group",
+      "relation": "market_outlook_index_q3",
+      "object": "49",
+      "object_type": "score",
+      "evidence": "Franchised dealers, who are historically more optimistic in their market outlook index, had an index score of 49 in the latest survey"
+    }
+  ],
+  "ed5cb02f60554c8480fa1e9dd067d78b": [],
+  "c721f3fa90accbd5e9552b9eb68acc1a": [],
+  "772c0b71a8f283ef9788df5002976e4a": [
+    {
+      "subject": "EV sales",
+      "subject_type": "metric",
+      "relation": "score_in_q3",
+      "object": "44",
+      "object_type": "number",
+      "evidence": "The overall score in Q3 was 44"
+    },
+    {
+      "subject": "EV sales",
+      "subject_type": "metric",
+      "relation": "score_in_q2",
+      "object": "41",
+      "object_type": "number",
+      "evidence": "up from 41 in Q2"
+    },
+    {
+      "subject": "EV sales",
+      "subject_type": "metric",
+      "relation": "score_one_year_ago",
+      "object": "49",
+      "object_type": "number",
+      "evidence": "lower than the score of 49 reported one year ago"
+    },
+    {
+      "subject": "EV sales expectations",
+      "subject_type": "metric",
+      "relation": "score_in_q3",
+      "object": "37",
+      "object_type": "number",
+      "evidence": "Expectations for future EV sales, however, fell in Q3, dropping to 37"
+    },
+    {
+      "subject": "EV sales expectations",
+      "subject_type": "metric",
+      "relation": "score_in_q2",
+      "object": "39",
+      "object_type": "number",
+      "evidence": "dropping to 37 from 39"
+    },
+    {
+      "subject": "EV tax credit index",
+      "subject_type": "metric",
+      "relation": "score_in_latest_survey",
+      "object": "58",
+      "object_type": "number",
+      "evidence": "the index score was 58"
+    }
+  ],
+  "d70b80325f5e26eda92e4e1994ad515e": [],
+  "4f111ce465a5d993f3123265cb96314a": [
+    {
+      "subject": "Cox Automotive",
+      "subject_type": "company",
+      "relation": "issues_survey",
+      "object": "Dealer Sentiment Index",
+      "object_type": "survey",
+      "evidence": "Cox Automotive issues to a representative sample of franchised and independent auto dealers... the Dealer Sentiment Index"
+    },
+    {
+      "subject": "Dealer Sentiment Index",
+      "subject_type": "survey",
+      "relation": "measures_perceptions",
+      "object": "dealer perceptions of current retail auto sales and sales expectations",
+      "object_type": "concept",
+      "evidence": "The Dealer Sentiment Index measures dealer perceptions of current retail auto sales and sales expectations for the next three months"
+    },
+    {
+      "subject": "Dealer Sentiment Index",
+      "subject_type": "survey",
+      "relation": "calculates_index",
+      "object": "index",
+      "object_type": "metric",
+      "evidence": "Responses are used to calculate an index by which any number over 50 indicates that more dealers view conditions as strong rather than weak"
+    },
+    {
+      "subject": "Q3 2024 CADSI",
+      "subject_type": "survey_result",
+      "relation": "based_on",
+      "object": "933 U.S. auto dealer respondents",
+      "object_type": "sample",
+      "evidence": "The Q3 2024 CADSI is based on 933 U.S. auto dealer respondents"
+    },
+    {
+      "subject": "Q3 2024 CADSI",
+      "subject_type": "survey_result",
+      "relation": "comprises",
+      "object": "536 franchised dealers and 397 independents",
+      "object_type": "count",
+      "evidence": "comprising 536 franchised dealers and 397 independents"
+    },
+    {
+      "subject": "Q3 2024 CADSI",
+      "subject_type": "survey_result",
+      "relation": "conducted_from",
+      "object": "July 23 to August 7, 2024",
+      "object_type": "date_range",
+      "evidence": "The survey was conducted from July 23 to August 7, 2024"
+    }
+  ],
+  "3a270d98dcd04038324c67624c211e1f": [
+    {
+      "subject": "Cox Automotive",
+      "subject_type": "company",
+      "relation": "is_a_subsidiary_of",
+      "object": "Cox Enterprises Inc.",
+      "object_type": "company",
+      "evidence": "Cox Automotive is a subsidiary of Cox Enterprises Inc."
+    },
+    {
+      "subject": "Cox Automotive",
+      "subject_type": "company",
+      "relation": "headquartered_in",
+      "object": "Atlanta",
+      "object_type": "city",
+      "evidence": "a privately owned, Atlanta-based company"
+    },
+    {
+      "subject": "Cox Automotive",
+      "subject_type": "company",
+      "relation": "has_revenue",
+      "object": "22 billion",
+      "object_type": "currency",
+      "evidence": "$22 billion in annual revenue"
+    },
+    {
+      "subject": "Cox Automotive",
+      "subject_type": "company",
+      "relation": "has_employees",
+      "object": "29,000+",
+      "object_type": "number",
+      "evidence": "29,000+ employees"
+    },
+    {
+      "subject": "Cox Automotive",
+      "subject_type": "company",
+      "relation": "operates_on",
+      "object": "five continents",
+      "object_type": "geography",
+      "evidence": "on five continents"
+    },
+    {
+      "subject": "Cox Automotive",
+      "subject_type": "company",
+      "relation": "provides_services_to",
+      "object": "car shoppers, auto manufacturers, dealers, lenders and fleets",
+      "object_type": "group",
+      "evidence": "tailors leading solutions for car shoppers, auto manufacturers, dealers, lenders and fleets"
+    }
+  ],
+  "7586385055bb0a007105bd3c90524e6c": [
+    {
+      "subject": "Cox Automotive",
+      "subject_type": "company",
+      "relation": "subsidiary_of",
+      "object": "Cox Enterprises Inc.",
+      "object_type": "company",
+      "evidence": "Cox Automotive is a subsidiary of Cox Enterprises Inc."
+    },
+    {
+      "subject": "Cox Enterprises Inc.",
+      "subject_type": "company",
+      "relation": "headquarters_location",
+      "object": "Atlanta",
+      "object_type": "city",
+      "evidence": "a privately owned, Atlanta-based company"
+    },
+    {
+      "subject": "Cox Enterprises Inc.",
+      "subject_type": "company",
+      "relation": "annual_revenue",
+      "object": "22 billion",
+      "object_type": "currency_amount",
+      "evidence": "$22 billion in annual revenue"
+    },
+    {
+      "subject": "Cox Automotive",
+      "subject_type": "company",
+      "relation": "website",
+      "object": "coxautoinc.com",
+      "object_type": "url",
+      "evidence": "Visit coxautoinc.com"
+    },
+    {
+      "subject": "Mark Schirmer",
+      "subject_type": "person",
+      "relation": "media_contact_for",
+      "object": "Cox Automotive",
+      "object_type": "company",
+      "evidence": "Media Contacts: Mark Schirmer"
+    },
+    {
+      "subject": "Dara Hailes",
+      "subject_type": "person",
+      "relation": "media_contact_for",
+      "object": "Cox Automotive",
+      "object_type": "company",
+      "evidence": "Dara Hailes"
+    }
+  ],
+  "84ea4edc20df605842f155d096f746bd": [
+    {
+      "subject": "Ilaria Mazzocco",
+      "subject_type": "person",
+      "relation": "testified_before",
+      "object": "U.S.-China Economic and Security Review Commission",
+      "object_type": "organization",
+      "evidence": "Ilaria Mazzocco testified before the U.S.-China Economic and Security Review Commission"
+    },
+    {
+      "subject": "Ilaria Mazzocco",
+      "subject_type": "person",
+      "relation": "spoke_about",
+      "object": "state of China's electric vehicle industry",
+      "object_type": "topic",
+      "evidence": "about the state of China's electric vehicle industry"
+    },
+    {
+      "subject": "Ilaria Mazzocco",
+      "subject_type": "person",
+      "relation": "spoke_about",
+      "object": "internationalization",
+      "object_type": "topic",
+      "evidence": "its internationalization"
+    },
+    {
+      "subject": "Ilaria Mazzocco",
+      "subject_type": "person",
+      "relation": "spoke_about",
+      "object": "implications for the United States and the world",
+      "object_type": "topic",
+      "evidence": "and its implications for the United States and the world"
+    },
+    {
+      "subject": "U.S.-China Economic and Security Review Commission",
+      "subject_type": "organization",
+      "relation": "hosted_testimony_by",
+      "object": "Ilaria Mazzocco",
+      "object_type": "person",
+      "evidence": "Ilaria Mazzocco testified before the U.S.-China Economic and Security Review Commission"
+    },
+    {
+      "subject": "China's Electric Vehicle Industry's Internationalization",
+      "subject_type": "publication",
+      "relation": "published_by",
+      "object": "CSIS",
+      "object_type": "organization",
+      "evidence": "https://www.csis.org/analysis/chinas-electric-vehicle-industrys-internationalization"
+    }
+  ]
+}
