@@ -1,0 +1,9 @@
+networkx
+matplotlib
+pandas
+tqdm
+scikit-learn
+openai
+python-dotenv
+langextract
+jupyter

@@ -46,7 +46,7 @@
     "subject_type": "person",
     "relation": "holds_position",
     "object": "chief economist at Cox Automotive",
-    "object_type": "role",
+    "object_type": "position",
     "evidence": "said Jonathan Smoke, chief economist at Cox Automotive"
   },
   {
@@ -204,10 +204,10 @@
     "doc_id": "doc_23.txt",
     "subject": "Dealer Sentiment Index",
     "subject_type": "survey",
-    "relation": "calculates_index",
-    "object": "index",
-    "object_type": "metric",
-    "evidence": "Responses are used to calculate an index by which any number over 50 indicates that more dealers view conditions as strong rather than weak"
+    "relation": "includes_rating",
+    "object": "new-car sales and used-car sales separately",
+    "object_type": "concept",
+    "evidence": "The survey also asks dealers to rate new-car sales and used-car sales separately"
   },
   {
     "chunk_id": "doc_23.txt::ch6",
@@ -216,7 +216,7 @@
     "subject_type": "survey_result",
     "relation": "based_on",
     "object": "933 U.S. auto dealer respondents",
-    "object_type": "sample",
+    "object_type": "number",
     "evidence": "The Q3 2024 CADSI is based on 933 U.S. auto dealer respondents"
   },
   {
@@ -226,7 +226,7 @@
     "subject_type": "survey_result",
     "relation": "comprises",
     "object": "536 franchised dealers and 397 independents",
-    "object_type": "count",
+    "object_type": "number",
     "evidence": "comprising 536 franchised dealers and 397 independents"
   },
   {
@@ -234,7 +234,7 @@
     "doc_id": "doc_23.txt",
     "subject": "Q3 2024 CADSI",
     "subject_type": "survey_result",
-    "relation": "conducted_from",
+    "relation": "conducted_from_to",
     "object": "July 23 to August 7, 2024",
     "object_type": "date_range",
     "evidence": "The survey was conducted from July 23 to August 7, 2024"
@@ -326,7 +326,7 @@
     "subject_type": "company",
     "relation": "annual_revenue",
     "object": "22 billion",
-    "object_type": "currency_amount",
+    "object_type": "currency",
     "evidence": "$22 billion in annual revenue"
   },
   {

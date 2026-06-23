@@ -446,28 +446,38 @@ def flat_rag_answer(question):
     return qwen_answer(question, ctx), ctx
 
 # Giai đoạn 14: Benchmark theo yêu cầu lab
-benchmark_questions = [
-    "What entities are connected to Microsoft?",
-    "What entities are connected to OpenAI?",
-    "What products are connected to Google?",
-    "Which companies are connected through partnerships?",
-    "Which companies are connected through acquisitions?",
-    "Which people are connected to technology companies?",
-    "What competitors are mentioned?",
-    "Which companies are connected to AI products?",
-    "What headquarters or locations are mentioned?",
-    "What investments are mentioned?",
-    "What is connected to NVIDIA?",
-    "What is connected to Tesla?",
-    "What is connected to Amazon?",
-    "What is connected to Apple?",
-    "What is connected to Meta?",
-    "What multi-hop relation can be found around Microsoft?",
-    "What multi-hop relation can be found around Google?",
-    "What multi-hop relation can be found around AI?",
-    "Which products are connected to companies?",
-    "Which company relationships are most important in the graph?"
+# Tự động tạo 20 câu hỏi dựa trên các entities có thật trong đồ thị (G)
+top_nodes = [n for n, d in sorted(G.degree, key=lambda x: x[1], reverse=True)[:10]]
+if not top_nodes:
+    top_nodes = ["AI", "Technology", "Company"] # Fallback nếu graph rỗng
+
+templates = [
+    "What entities are connected to {}?",
+    "What products are connected to {}?",
+    "Which companies are connected through partnerships with {}?",
+    "Which companies are connected through acquisitions related to {}?",
+    "Which people are connected to {}?",
+    "What competitors are mentioned for {}?",
+    "Which companies are connected to AI products of {}?",
+    "What headquarters or locations are mentioned for {}?",
+    "What investments are mentioned for {}?",
+    "What is connected to {}?",
+    "What multi-hop relation can be found around {}?",
+    "Which products are connected to {}?",
+    "What are the most important relationships for {} in the graph?",
+    "Describe the ecosystem around {}.",
+    "What role does {} play in this context?",
+    "Who does {} interact with?",
+    "What technologies are linked to {}?",
+    "How does {} influence others?",
+    "What is the main focus of {}?",
+    "Summarize the connections of {}."
 ]
+
+benchmark_questions = []
+for i in range(20):
+    node = top_nodes[i % len(top_nodes)]
+    benchmark_questions.append(templates[i].format(node))
 
 rows = []
 for q in benchmark_questions:
